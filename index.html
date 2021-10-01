@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Média</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+        Calculadora de média</h1>
+        <p class="page-subtitle">
+        Saiba qual a nota média de todas as suas provas com a calculadora de média!
+        </p>
+        <img src="https://cdn-icons-png.flaticon.com/512/3696/3696447.png" class="page-logo" alt=""><br>
+        <hr>
+
+        <label for="nome">Seu Nome</label>
+        <input class="input-nome" id="nome" size="2" /><br>
+
+        <label for="notaPrimeiroBi">Nota do Primeiro Bimestre</label>
+        <input type="number" id="notaPrimeiroBimestre" size="2"/><br>
+
+        <label for="notaSegundoBi">Nota do Segundo Bimestre</label>
+        <input type="number" id="notaSegundoBimestre" size="2"/><br>
+
+        <label for="notaTerceiroBi">Nota do Terceiro Bimestre</label>
+        <input type="number" id="notaTerceiroBimestre" size="2"/><br>
+
+        <label for="notaQuartoBi">Nota do Quarto Bimestre</label>
+        <input type="number" id="notaQuartoBimestre" size="2"/><br>
+
+        <button type="submit" onclick="Calcular()">Calcular Nota</button><hr>
+        
+        <h2 id="notaCalculada"></h2>
+
+    </div>
+    <a href="https://github.com/ryanmiura" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/1322/1322053.png" alt="" class="github-logo">
+    </a>
+   
+    <script src="./script.js"></script>
+</body>
+</html>
